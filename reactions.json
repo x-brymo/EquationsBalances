@@ -1,0 +1,1763 @@
+{
+    "reactions": [
+      {
+        "name": "Water Formation",
+        "description": "Formation of water from hydrogen and oxygen",
+        "reactants": ["H2", "O2"],
+        "products": ["H2O"],
+        "balancedEquation": "2H2 + O2 -> 2H2O"
+      },
+      {
+        "name": "Sodium Chloride Formation",
+        "description": "Formation of sodium chloride from sodium and chlorine",
+        "reactants": ["Na", "Cl2"],
+        "products": ["NaCl"],
+        "balancedEquation": "2Na + Cl2 -> 2NaCl"
+      },
+      {
+        "name": "Carbon Dioxide Formation",
+        "description": "Formation of carbon dioxide from carbon and oxygen",
+        "reactants": ["C", "O2"],
+        "products": ["CO2"],
+        "balancedEquation": "C + O2 -> CO2"
+      },
+      {
+        "name": "Magnesium Nitride Formation",
+        "description": "Formation of magnesium nitride from magnesium and nitrogen",
+        "reactants": ["Mg", "N2"],
+        "products": ["Mg3N2"],
+        "balancedEquation": "3Mg + N2 -> Mg3N2"
+      },
+      {
+        "name": "Calcium Oxide Formation",
+        "description": "Formation of calcium oxide from calcium and oxygen",
+        "reactants": ["Ca", "O2"],
+        "products": ["CaO"],
+        "balancedEquation": "2Ca + O2 -> 2CaO"
+      },
+      {
+        "name": "Iron Oxide Formation",
+        "description": "Formation of iron oxide from iron and oxygen",
+        "reactants": ["Fe", "O2"],
+        "products": ["Fe2O3"],
+        "balancedEquation": "4Fe + 3O2 -> 2Fe2O3"
+      },
+      {
+        "name": "Aluminum Oxide Formation",
+        "description": "Formation of aluminum oxide from aluminum and oxygen",
+        "reactants": ["Al", "O2"],
+        "products": ["Al2O3"],
+        "balancedEquation": "4Al + 3O2 -> 2Al2O3"
+      },
+      {
+        "name": "Zinc Chloride and Hydrogen Formation",
+        "description": "Reaction of zinc with hydrochloric acid to form zinc chloride and hydrogen",
+        "reactants": ["Zn", "HCl"],
+        "products": ["ZnCl2", "H2"],
+        "balancedEquation": "Zn + 2HCl -> ZnCl2 + H2"
+      },
+      {
+        "name": "Copper Oxide Formation",
+        "description": "Formation of copper oxide from copper and oxygen",
+        "reactants": ["Cu", "O2"],
+        "products": ["CuO"],
+        "balancedEquation": "2Cu + O2 -> 2CuO"
+      },
+      {
+        "name": "Ethane Combustion",
+        "description": "Combustion of ethane in oxygen to produce carbon dioxide and water",
+        "reactants": ["C2H6", "O2"],
+        "products": ["CO2", "H2O"],
+        "balancedEquation": "2C2H6 + 7O2 -> 4CO2 + 6H2O"
+      },
+    
+      {
+        "name": "Methane Combustion",
+        "description": "Combustion of methane in oxygen to produce carbon dioxide and water",
+        "reactants": ["CH4", "O2"],
+        "products": ["CO2", "H2O"],
+        "balancedEquation": "CH4 + 2O2 -> CO2 + 2H2O"
+      },
+      {
+        "name": "Ammonia Oxidation",
+        "description": "Oxidation of ammonia in oxygen to produce nitrogen monoxide and water",
+        "reactants": ["NH3", "O2"],
+        "products": ["NO", "H2O"],
+        "balancedEquation": "4NH3 + 5O2 -> 4NO + 6H2O"
+      },
+      {
+        "name": "Sodium Hydroxide and Hydrochloric Acid Reaction",
+        "description": "Reaction of sodium hydroxide with hydrochloric acid to produce sodium chloride and water",
+        "reactants": ["NaOH", "HCl"],
+        "products": ["NaCl", "H2O"],
+        "balancedEquation": "NaOH + HCl -> NaCl + H2O"
+      },
+      {
+        "name": "Sulfuric Acid and Sodium Hydroxide Reaction",
+        "description": "Reaction of sulfuric acid with sodium hydroxide to produce sodium sulfate and water",
+        "reactants": ["H2SO4", "NaOH"],
+        "products": ["Na2SO4", "H2O"],
+        "balancedEquation": "H2SO4 + 2NaOH -> Na2SO4 + 2H2O"
+      },
+      {
+        "name": "Silver Nitrate and Sodium Chloride Reaction",
+        "description": "Reaction of silver nitrate with sodium chloride to produce silver chloride and sodium nitrate",
+        "reactants": ["AgNO3", "NaCl"],
+        "products": ["AgCl", "NaNO3"],
+        "balancedEquation": "AgNO3 + NaCl -> AgCl + NaNO3"
+      },
+      {
+        "name": "Barium Chloride and Sulfuric Acid Reaction",
+        "description": "Reaction of barium chloride with sulfuric acid to produce barium sulfate and hydrochloric acid",
+        "reactants": ["BaCl2", "H2SO4"],
+        "products": ["BaSO4", "HCl"],
+        "balancedEquation": "BaCl2 + H2SO4 -> BaSO4 + 2HCl"
+      },
+      {
+        "name": "Calcium Carbonate and Hydrochloric Acid Reaction",
+        "description": "Reaction of calcium carbonate with hydrochloric acid to produce calcium chloride, carbon dioxide, and water",
+        "reactants": ["CaCO3", "HCl"],
+        "products": ["CaCl2", "CO2", "H2O"],
+        "balancedEquation": "CaCO3 + 2HCl -> CaCl2 + CO2 + H2O"
+      },
+      {
+        "name": "Glucose Respiration",
+        "description": "Respiration of glucose in oxygen to produce carbon dioxide and water",
+        "reactants": ["C6H12O6", "O2"],
+        "products": ["CO2", "H2O"],
+        "balancedEquation": "C6H12O6 + 6O2 -> 6CO2 + 6H2O"
+      },
+      {
+        "name": "Hydrogen Peroxide Decomposition",
+        "description": "Decomposition of hydrogen peroxide to produce water and oxygen",
+        "reactants": ["H2O2"],
+        "products": ["H2O", "O2"],
+        "balancedEquation": "2H2O2 -> 2H2O + O2"
+      },
+      {
+        "name": "Potassium Chlorate Decomposition",
+        "description": "Decomposition of potassium chlorate to produce potassium chloride and oxygen",
+        "reactants": ["KClO3"],
+        "products": ["KCl", "O2"],
+        "balancedEquation": "2KClO3 -> 2KCl + 3O2"
+      },
+      {
+        "name": "Nitrogen and Hydrogen Formation",
+        "description": "Formation of ammonia from nitrogen and hydrogen",
+        "reactants": ["N2", "H2"],
+        "products": ["NH3"],
+        "balancedEquation": "N2 + 3H2 -> 2NH3"
+      },
+      {
+        "name": "Sulfur Dioxide Oxidation",
+        "description": "Oxidation of sulfur dioxide to produce sulfur trioxide",
+        "reactants": ["SO2", "O2"],
+        "products": ["SO3"],
+        "balancedEquation": "2SO2 + O2 -> 2SO3"
+      },
+      {
+        "name": "Calcium Oxide and Carbon Dioxide Reaction",
+        "description": "Reaction of calcium oxide with carbon dioxide to produce calcium carbonate",
+        "reactants": ["CaO", "CO2"],
+        "products": ["CaCO3"],
+        "balancedEquation": "CaO + CO2 -> CaCO3"
+      },
+      {
+        "name": "Lead Nitrate and Potassium Iodide Reaction",
+        "description": "Reaction of lead nitrate with potassium iodide to produce lead iodide and potassium nitrate",
+        "reactants": ["Pb(NO3)2", "KI"],
+        "products": ["PbI2", "KNO3"],
+        "balancedEquation": "Pb(NO3)2 + 2KI -> PbI2 + 2KNO3"
+      },
+      {
+        "name": "Hydrogen Chloride Formation",
+        "description": "Reaction of hydrogen with chlorine to produce hydrogen chloride",
+        "reactants": ["H2", "Cl2"],
+        "products": ["HCl"],
+        "balancedEquation": "H2 + Cl2 -> 2HCl"
+      },
+      {
+        "name": "Sodium Carbonate and Hydrochloric Acid Reaction",
+        "description": "Reaction of sodium carbonate with hydrochloric acid to produce sodium chloride, carbon dioxide, and water",
+        "reactants": ["Na2CO3", "HCl"],
+        "products": ["NaCl", "CO2", "H2O"],
+        "balancedEquation": "Na2CO3 + 2HCl -> 2NaCl + CO2 + H2O"
+      },
+      {
+        "name": "Hydrogen Sulfide Oxidation",
+        "description": "Oxidation of hydrogen sulfide in oxygen to produce sulfur dioxide and water",
+        "reactants": ["H2S", "O2"],
+        "products": ["SO2", "H2O"],
+        "balancedEquation": "2H2S + 3O2 -> 2SO2 + 2H2O"
+      },
+      {
+        "name": "Iron Oxide Reduction",
+        "description": "Reduction of iron(III) oxide with carbon to produce iron and carbon dioxide",
+        "reactants": ["Fe2O3", "C"],
+        "products": ["Fe", "CO2"],
+        "balancedEquation": "2Fe2O3 + 3C -> 4Fe + 3CO2"
+      },
+      {
+        "name": "Sulfuric Acid and Zinc Reaction",
+        "description": "Reaction of sulfuric acid with zinc to produce zinc sulfate and hydrogen",
+        "reactants": ["H2SO4", "Zn"],
+        "products": ["ZnSO4", "H2"],
+        "balancedEquation": "H2SO4 + Zn -> ZnSO4 + H2"
+      },
+      {
+        "name": "Lithium and Bromine Reaction",
+        "description": "Reaction of lithium with bromine to produce lithium bromide",
+        "reactants": ["Li", "Br2"],
+        "products": ["LiBr"],
+        "balancedEquation": "2Li + Br2 -> 2LiBr"
+      },
+      {
+        "name": "Chlorine and Water Reaction",
+        "description": "Reaction of chlorine with water to produce hydrochloric acid and hypochlorous acid",
+        "reactants": ["Cl2", "H2O"],
+        "products": ["HCl", "HOCl"],
+        "balancedEquation": "Cl2 + H2O -> HCl + HOCl"
+      },
+      {
+        "name": "Methane Synthesis",
+        "description": "Synthesis of methane from carbon and hydrogen",
+        "reactants": ["C", "H2"],
+        "products": ["CH4"],
+        "balancedEquation": "C + 2H2 -> CH4"
+      },
+      {
+        "name": "Ammonium Chloride and Sodium Hydroxide Reaction",
+        "description": "Reaction of ammonium chloride with sodium hydroxide to produce sodium chloride, ammonia, and water",
+        "reactants": ["NH4Cl", "NaOH"],
+        "products": ["NaCl", "NH3", "H2O"],
+        "balancedEquation": "NH4Cl + NaOH -> NaCl + NH3 + H2O"
+      },
+      {
+        "name": "Hydrogen and Nitrous Oxide Reaction",
+        "description": "Reaction of hydrogen with nitrous oxide to produce ammonia and water",
+        "reactants": ["H2", "N2O"],
+        "products": ["NH3", "H2O"],
+        "balancedEquation": "3H2 + N2O -> 2NH3 + H2O"
+      },
+      {
+        "name": "Potassium Nitrate Decomposition",
+        "description": "Decomposition of potassium nitrate to produce potassium nitrite and oxygen",
+        "reactants": ["KNO3"],
+        "products": ["KNO2", "O2"],
+        "balancedEquation": "2KNO3 -> 2KNO2 + O2"
+      },
+      {
+        "name": "Ethanol Combustion",
+        "description": "Combustion of ethanol in oxygen to produce carbon dioxide and water",
+        "reactants": ["C2H5OH", "O2"],
+        "products": ["CO2", "H2O"],
+        "balancedEquation": "C2H5OH + 3O2 -> 2CO2 + 3H2O"
+      },
+      {
+        "name": "Acetic Acid Combustion",
+        "description": "Combustion of acetic acid in oxygen to produce carbon dioxide and water",
+        "reactants": ["CH3COOH", "O2"],
+        "products": ["CO2", "H2O"],
+        "balancedEquation": "CH3COOH + 2O2 -> 2CO2 + 2H2O"
+      },
+      {
+        "name": "Hydrochloric Acid and Sodium Bicarbonate Reaction",
+        "description": "Reaction of hydrochloric acid with sodium bicarbonate to produce sodium chloride, carbon dioxide, and water",
+        "reactants": ["HCl", "NaHCO3"],
+        "products": ["NaCl", "CO2", "H2O"],
+        "balancedEquation": "HCl + NaHCO3 -> NaCl + CO2 + H2O"
+      },
+      {
+        "name": "Hydrogen and Bromine Reaction",
+        "description": "Reaction of hydrogen with bromine to produce hydrogen bromide",
+        "reactants": ["H2", "Br2"],
+        "products": ["HBr"],
+        "balancedEquation": "H2 + Br2 -> 2HBr"
+      },
+      {
+        "name": "Iron Chloride Formation",
+        "description": "Reaction of iron with chlorine to form iron(III) chloride",
+        "reactants": ["Fe", "Cl2"],
+        "products": ["FeCl3"],
+        "balancedEquation": "2Fe + 3Cl2 -> 2FeCl3"
+      },
+      {
+        "name": "Aluminum Chloride Formation",
+        "description": "Reaction of aluminum with chlorine to form aluminum chloride",
+        "reactants": ["Al", "Cl2"],
+        "products": ["AlCl3"],
+        "balancedEquation": "2Al + 3Cl2 -> 2AlCl3"
+      },
+      {
+        "name": "Hydrogen Iodide Formation",
+        "description": "Reaction of hydrogen with iodine to produce hydrogen iodide",
+        "reactants": ["H2", "I2"],
+        "products": ["HI"],
+        "balancedEquation": "H2 + I2 -> 2HI"
+      },
+      {
+        "name": "Sulfuric Acid and Barium Chloride Reaction",
+        "description": "Reaction of sulfuric acid with barium chloride to produce barium sulfate and hydrochloric acid",
+        "reactants": ["H2SO4", "BaCl2"],
+        "products": ["BaSO4", "2HCl"],
+        "balancedEquation": "H2SO4 + BaCl2 -> BaSO4 + 2HCl"
+      },
+      {
+        "name": "Potassium Chloride and Sulfuric Acid Reaction",
+        "description": "Reaction of potassium chloride with sulfuric acid to produce potassium hydrogen sulfate and hydrochloric acid",
+        "reactants": ["KCl", "H2SO4"],
+        "products": ["KHSO4", "HCl"],
+        "balancedEquation": "2KCl + H2SO4 -> K2SO4 + 2HCl"
+      },
+      {
+        "name": "Ammonium Nitrate Decomposition",
+        "description": "Decomposition of ammonium nitrate to produce nitrous oxide and water",
+        "reactants": ["NH4NO3"],
+        "products": ["N2O", "2H2O"],
+        "balancedEquation": "2NH4NO3 -> 2N2O + 4H2O"
+      },
+      {
+        "name": "Copper Sulfate and Zinc Reaction",
+        "description": "Reaction of copper sulfate with zinc to produce zinc sulfate and copper",
+        "reactants": ["CuSO4", "Zn"],
+        "products": ["ZnSO4", "Cu"],
+        "balancedEquation": "CuSO4 + Zn -> ZnSO4 + Cu"
+      },
+      {
+        "name": "Sulfuric Acid and Copper Reaction",
+        "description": "Reaction of sulfuric acid with copper to produce copper sulfate, sulfur dioxide, and water",
+        "reactants": ["H2SO4", "Cu"],
+        "products": ["CuSO4", "SO2", "2H2O"],
+        "balancedEquation": "H2SO4 + Cu -> CuSO4 + SO2 + 2H2O"
+      },
+      {
+        "name": "Lead Dioxide and Hydrochloric Acid Reaction",
+        "description": "Reaction of lead dioxide with hydrochloric acid to produce lead chloride, water, and chlorine",
+        "reactants": ["PbO2", "HCl"],
+        "products": ["PbCl2", "H2O", "Cl2"],
+        "balancedEquation": "PbO2 + 4HCl -> PbCl2 + 2H2O + Cl2"
+      },
+      {
+        "name": "Sulfuric Acid and Iron Reaction",
+        "description": "Reaction of sulfuric acid with iron to produce iron(II) sulfate, water, and sulfur dioxide",
+        "reactants": ["H2SO4", "Fe"],
+        "products": ["FeSO4", "H2O", "SO2"],
+        "balancedEquation": "H2SO4 + Fe -> FeSO4 + H2O + SO2"
+      },
+      {
+        "name": "Magnesium Oxide and Hydrochloric Acid Reaction",
+        "description": "Reaction of magnesium oxide with hydrochloric acid to produce magnesium chloride and water",
+        "reactants": ["MgO", "HCl"],
+        "products": ["MgCl2", "H2O"],
+        "balancedEquation": "MgO + 2HCl -> MgCl2 + H2O"
+      },
+      {
+        "name": "Sodium Sulfide and Hydrochloric Acid Reaction",
+        "description": "Reaction of sodium sulfide with hydrochloric acid to produce sodium chloride and hydrogen sulfide",
+        "reactants": ["Na2S", "HCl"],
+        "products": ["NaCl", "H2S"],
+        "balancedEquation": "Na2S + 2HCl -> 2NaCl + H2S"
+      },
+      {
+        "name": "Iron Oxide and Hydrochloric Acid Reaction",
+        "description": "Reaction of iron(III) oxide with hydrochloric acid to produce iron(III) chloride and water",
+        "reactants": ["Fe2O3", "HCl"],
+        "products": ["FeCl3", "H2O"],
+        "balancedEquation": "Fe2O3 + 6HCl -> 2FeCl3 + 3H2O"
+      },
+      {
+        "name": "Potassium Sulfate and Barium Chloride Reaction",
+        "description": "Reaction of potassium sulfate with barium chloride to produce barium sulfate and potassium chloride",
+        "reactants": ["K2SO4", "BaCl2"],
+        "products": ["BaSO4", "2KCl"],
+        "balancedEquation": "K2SO4 + BaCl2 -> BaSO4 + 2KCl"
+      },
+      {
+        "name": "Phosphoric Acid and Ammonia Reaction",
+        "description": "Reaction of phosphoric acid with ammonia to produce ammonium dihydrogen phosphate",
+        "reactants": ["H3PO4", "NH3"],
+        "products": ["NH4H2PO4"],
+        "balancedEquation": "H3PO4 + NH3 -> NH4H2PO4"
+      },
+      {
+        "name": "Calcium Oxide and Water Reaction",
+        "description": "Reaction of calcium oxide with water to produce calcium hydroxide",
+        "reactants": ["CaO", "H2O"],
+        "products": ["Ca(OH)2"],
+        "balancedEquation": "CaO + H2O -> Ca(OH)2"
+      },
+      {
+        "name": "Sodium Oxide and Water Reaction",
+        "description": "Reaction of sodium oxide with water to produce sodium hydroxide",
+        "reactants": ["Na2O", "H2O"],
+        "products": ["2NaOH"],
+        "balancedEquation": "Na2O + H2O -> 2NaOH"
+      },
+      {
+        "name": "Copper and Nitric Acid Reaction",
+        "description": "Reaction of copper with nitric acid to produce copper nitrate, nitrogen dioxide, and water",
+        "reactants": ["Cu", "HNO3"],
+        "products": ["Cu(NO3)2", "NO2", "H2O"],
+        "balancedEquation": "3Cu + 8HNO3 -> 3Cu(NO3)2 + 2NO2 + 4H2O"
+      },
+      {
+        "name": "Potassium Dichromate and Sulfuric Acid with Hydrogen Sulfide Reaction",
+        "description": "Reaction of potassium dichromate and sulfuric acid with hydrogen sulfide to produce potassium sulfate, chromium(III) sulfate, sulfur dioxide, and water",
+        "reactants": ["K2Cr2O7", "H2SO4", "H2S"],
+        "products": ["K2SO4", "Cr2(SO4)3", "SO2", "H2O"],
+        "balancedEquation": "K2Cr2O7 + 4H2SO4 + 3H2S -> K2SO4 + Cr2(SO4)3 + 3SO2 + 7H2O"
+      },
+      {
+        "name": "Chlorine and Sodium Hydroxide Reaction",
+        "description": "Reaction of chlorine with sodium hydroxide to produce sodium chloride, sodium hypochlorite, and water",
+        "reactants": ["Cl2", "NaOH"],
+        "products": ["NaCl", "NaClO", "H2O"],
+        "balancedEquation": "Cl2 + 2NaOH -> NaCl + NaClO + H2O"
+      },
+      {
+        "name": "Ethylene Combustion",
+        "description": "Combustion of ethylene in oxygen to produce carbon dioxide and water",
+        "reactants": ["C2H4", "O2"],
+        "products": ["CO2", "H2O"],
+        "balancedEquation": "C2H4 + 3O2 -> 2CO2 + 2H2O"
+      },
+      {
+        "name": "Sodium and Water Reaction",
+        "description": "Reaction of sodium with water to produce sodium hydroxide and hydrogen",
+        "reactants": ["Na", "H2O"],
+        "products": ["NaOH", "H2"],
+        "balancedEquation": "2Na + 2H2O -> 2NaOH + H2"
+      },
+      {
+        "name": "Hydrogen and Ozone Reaction",
+        "description": "Reaction of hydrogen with ozone to produce water and oxygen",
+        "reactants": ["H2", "O3"],
+        "products": ["H2O", "O2"],
+        "balancedEquation": "2H2 + 2O3 -> 2H2O + O2"
+      },
+      {
+        "name": "Methanol Combustion",
+        "description": "Combustion of methanol in oxygen to produce carbon dioxide and water",
+        "reactants": ["CH3OH", "O2"],
+        "products": ["CO2", "H2O"],
+        "balancedEquation": "2CH3OH + 3O2 -> 2CO2 + 4H2O"
+      },
+      {
+        "name": "Benzene Combustion",
+        "description": "Combustion of benzene in oxygen to produce carbon dioxide and water",
+        "reactants": ["C6H6", "O2"],
+        "products": ["CO2", "H2O"],
+        "balancedEquation": "2C6H6 + 15O2 -> 12CO2 + 6H2O"
+      },
+      {
+        "name": "Iron Oxide Formation",
+        "description": "Formation of iron(III) oxide from iron and oxygen",
+        "reactants": ["Fe", "O2"],
+        "products": ["Fe2O3"],
+        "balancedEquation": "4Fe + 3O2 -> 2Fe2O3"
+      },
+      {
+        "name": "Potassium Bromide and Chlorine Reaction",
+        "description": "Reaction of potassium bromide with chlorine to form potassium chloride and bromine",
+        "reactants": ["KBr", "Cl2"],
+        "products": ["KCl", "Br2"],
+        "balancedEquation": "2KBr + Cl2 -> 2KCl + Br2"
+      },
+      {
+        "name": "Calcium Carbonate Decomposition",
+        "description": "Decomposition of calcium carbonate into calcium oxide and carbon dioxide",
+        "reactants": ["CaCO3"],
+        "products": ["CaO", "CO2"],
+        "balancedEquation": "CaCO3 -> CaO + CO2"
+      },
+      {
+        "name": "Acetylene Combustion",
+        "description": "Combustion of acetylene in oxygen to produce carbon dioxide and water",
+        "reactants": ["C2H2", "O2"],
+        "products": ["CO2", "H2O"],
+        "balancedEquation": "2C2H2 + 5O2 -> 4CO2 + 2H2O"
+      },
+      {
+        "name": "Hydrogen Sulfide and Oxygen Reaction",
+        "description": "Reaction of hydrogen sulfide with oxygen to produce sulfur dioxide and water",
+        "reactants": ["H2S", "O2"],
+        "products": ["SO2", "H2O"],
+        "balancedEquation": "2H2S + 3O2 -> 2SO2 + 2H2O"
+      },
+      {
+        "name": "Ammonium Chloride and Sodium Hydroxide Reaction",
+        "description": "Reaction of ammonium chloride with sodium hydroxide to produce sodium chloride, ammonia, and water",
+        "reactants": ["NH4Cl", "NaOH"],
+        "products": ["NaCl", "NH3", "H2O"],
+        "balancedEquation": "NH4Cl + NaOH -> NaCl + NH3 + H2O"
+      },
+      {
+        "name": "Hydrogen and Fluorine Reaction",
+        "description": "Reaction of hydrogen with fluorine to form hydrogen fluoride",
+        "reactants": ["H2", "F2"],
+        "products": ["HF"],
+        "balancedEquation": "H2 + F2 -> 2HF"
+      },
+      {
+        "name": "Silver Nitrate and Hydrochloric Acid Reaction",
+        "description": "Reaction of silver nitrate with hydrochloric acid to produce silver chloride and nitric acid",
+        "reactants": ["AgNO3", "HCl"],
+        "products": ["AgCl", "HNO3"],
+        "balancedEquation": "AgNO3 + HCl -> AgCl + HNO3"
+      },
+      {
+        "name": "Lead Nitrate and Hydrogen Sulfide Reaction",
+        "description": "Reaction of lead nitrate with hydrogen sulfide to produce lead sulfide and nitric acid",
+        "reactants": ["Pb(NO3)2", "H2S"],
+        "products": ["PbS", "2HNO3"],
+        "balancedEquation": "Pb(NO3)2 + H2S -> PbS + 2HNO3"
+      },
+      {
+        "name": "Magnesium and Chlorine Reaction",
+        "description": "Reaction of magnesium with chlorine to produce magnesium chloride",
+        "reactants": ["Mg", "Cl2"],
+        "products": ["MgCl2"],
+        "balancedEquation": "Mg + Cl2 -> MgCl2"
+      },
+      {
+        "name": "Water Formation",
+        "description": "Formation of water from hydrogen and oxygen",
+        "reactants": ["H2", "O2"],
+        "products": ["H2O"],
+        "balancedEquation": "2H2 + O2 -> 2H2O"
+      },
+      {
+        "name": "Iron Sulfide Formation",
+        "description": "Formation of iron sulfide from iron and sulfur",
+        "reactants": ["Fe", "S"],
+        "products": ["FeS"],
+        "balancedEquation": "Fe + S -> FeS"
+      },
+      {
+        "name": "Hydrochloric Acid and Sodium Carbonate Reaction",
+        "description": "Reaction of hydrochloric acid with sodium carbonate to produce sodium chloride, carbon dioxide, and water",
+        "reactants": ["HCl", "Na2CO3"],
+        "products": ["NaCl", "CO2", "H2O"],
+        "balancedEquation": "2HCl + Na2CO3 -> 2NaCl + CO2 + H2O"
+      },
+      {
+        "name": "Hydrogen Chloride Formation",
+        "description": "Formation of hydrogen chloride from hydrogen and chlorine",
+        "reactants": ["H2", "Cl2"],
+        "products": ["HCl"],
+        "balancedEquation": "H2 + Cl2 -> 2HCl"
+      },
+      {
+        "name": "Zinc and Hydrochloric Acid Reaction",
+        "description": "Reaction of zinc with hydrochloric acid to produce zinc chloride and hydrogen gas",
+        "reactants": ["Zn", "HCl"],
+        "products": ["ZnCl2", "H2"],
+        "balancedEquation": "Zn + 2HCl -> ZnCl2 + H2"
+      },
+      {
+        "name": "Copper and Silver Nitrate Reaction",
+        "description": "Reaction of copper with silver nitrate to produce copper(II) nitrate and silver",
+        "reactants": ["Cu", "AgNO3"],
+        "products": ["Cu(NO3)2", "Ag"],
+        "balancedEquation": "Cu + 2AgNO3 -> Cu(NO3)2 + 2Ag"
+      },
+      {
+        "name": "Sodium Hydroxide and Sulfuric Acid Reaction",
+        "description": "Reaction of sodium hydroxide with sulfuric acid to produce sodium sulfate and water",
+        "reactants": ["NaOH", "H2SO4"],
+        "products": ["Na2SO4", "H2O"],
+        "balancedEquation": "2NaOH + H2SO4 -> Na2SO4 + 2H2O"
+      },
+      {
+        "name": "Sulfuric Acid and Zinc Reaction",
+        "description": "Reaction of sulfuric acid with zinc to produce zinc sulfate, sulfur dioxide, and water",
+        "reactants": ["H2SO4", "Zn"],
+        "products": ["ZnSO4", "SO2", "H2O"],
+        "balancedEquation": "H2SO4 + Zn -> ZnSO4 + SO2 + 2H2O"
+      },
+      {
+        "name": "Ethanol Combustion",
+        "description": "Combustion of ethanol in oxygen to produce carbon dioxide and water",
+        "reactants": ["C2H5OH", "O2"],
+        "products": ["CO2", "H2O"],
+        "balancedEquation": "C2H5OH + 3O2 -> 2CO2 + 3H2O"
+      },
+      {
+        "name": "Thermite Reaction",
+        "description": "Reaction between iron(III) oxide and aluminum to produce iron and aluminum oxide",
+        "reactants": ["Fe2O3", "Al"],
+        "products": ["Fe", "Al2O3"],
+        "balancedEquation": "Fe2O3 + 2Al -> 2Fe + Al2O3"
+      },
+      {
+        "name": "Sodium Bicarbonate and Hydrochloric Acid Reaction",
+        "description": "Reaction of sodium bicarbonate with hydrochloric acid to produce sodium chloride, carbon dioxide, and water",
+        "reactants": ["HCl", "NaHCO3"],
+        "products": ["NaCl", "CO2", "H2O"],
+        "balancedEquation": "HCl + NaHCO3 -> NaCl + CO2 + H2O"
+      },
+      {
+        "name": "Hydrogen Sulfide and Oxygen Reaction",
+        "description": "Reaction of hydrogen sulfide with oxygen to produce sulfur dioxide and water",
+        "reactants": ["H2S", "O2"],
+        "products": ["SO2", "H2O"],
+        "balancedEquation": "2H2S + 3O2 -> 2SO2 + 2H2O"
+      },
+      {
+        "name": "Lead Oxide and Hydrochloric Acid Reaction",
+        "description": "Reaction of lead(II) oxide with hydrochloric acid to produce lead(II) chloride and water",
+        "reactants": ["PbO", "HCl"],
+        "products": ["PbCl2", "H2O"],
+        "balancedEquation": "PbO + 2HCl -> PbCl2 + H2O"
+      },
+      {
+        "name": "Ammonia and Hydrochloric Acid Reaction",
+        "description": "Reaction of ammonia with hydrochloric acid to produce ammonium chloride",
+        "reactants": ["NH3", "HCl"],
+        "products": ["NH4Cl"],
+        "balancedEquation": "NH3 + HCl -> NH4Cl"
+      },
+      {
+        "name": "Sodium Sulfate and Barium Chloride Reaction",
+        "description": "Reaction of sodium sulfate with barium chloride to produce barium sulfate and sodium chloride",
+        "reactants": ["Na2SO4", "BaCl2"],
+        "products": ["BaSO4", "2NaCl"],
+        "balancedEquation": "Na2SO4 + BaCl2 -> BaSO4 + 2NaCl"
+      },
+      {
+        "name": "Magnesium and Water Reaction",
+        "description": "Reaction of magnesium with water to produce magnesium hydroxide and hydrogen gas",
+        "reactants": ["Mg", "H2O"],
+        "products": ["Mg(OH)2", "H2"],
+        "balancedEquation": "Mg + 2H2O -> Mg(OH)2 + H2"
+      },
+      {
+        "name": "Glucose Combustion",
+        "description": "Combustion of glucose in oxygen to produce carbon dioxide and water",
+        "reactants": ["C6H12O6", "O2"],
+        "products": ["CO2", "H2O"],
+        "balancedEquation": "C6H12O6 + 6O2 -> 6CO2 + 6H2O"
+      },
+      {
+        "name": "Hydrogen and Oxygen Reaction",
+        "description": "Formation of water from hydrogen and oxygen",
+        "reactants": ["H2", "O2"],
+        "products": ["H2O"],
+        "balancedEquation": "2H2 + O2 -> 2H2O"
+      },
+      {
+        "name": "Ethylene and Bromine Reaction",
+        "description": "Reaction of ethylene with bromine to produce 1,2-dibromoethane",
+        "reactants": ["C2H4", "Br2"],
+        "products": ["C2H4Br2"],
+        "balancedEquation": "C2H4 + Br2 -> C2H4Br2"
+      },
+      {
+        "name": "Iron and Sulfur Reaction",
+        "description": "Formation of iron sulfide from iron and sulfur",
+        "reactants": ["Fe", "S"],
+        "products": ["FeS"],
+        "balancedEquation": "Fe + S -> FeS"
+      },
+      {
+        "name": "Carbon Dioxide Formation",
+        "description": "Formation of carbon dioxide from carbon and oxygen",
+        "reactants": ["C", "O2"],
+        "products": ["CO2"],
+        "balancedEquation": "C + O2 -> CO2"
+      },
+
+      {
+        "name": "Hydrogen Iodide Formation",
+        "description": "Formation of hydrogen iodide from hydrogen and iodine",
+        "reactants": ["H2", "I2"],
+        "products": ["2HI"],
+        "balancedEquation": "H2 + I2 -> 2HI"
+      },
+      {
+        "name": "Thiosulfate and Hydrochloric Acid Reaction",
+        "description": "Reaction of sodium thiosulfate with hydrochloric acid to produce sodium sulfate, sulfur, and water",
+        "reactants": ["Na2S2O3", "HCl"],
+        "products": ["Na2SO4", "S", "H2O"],
+        "balancedEquation": "Na2S2O3 + 2HCl -> Na2SO4 + S + H2O"
+      },
+      {
+        "name": "Potassium Oxide and Water Reaction",
+        "description": "Reaction of potassium oxide with water to produce potassium hydroxide",
+        "reactants": ["K2O", "H2O"],
+        "products": ["2KOH"],
+        "balancedEquation": "K2O + H2O -> 2KOH"
+      },
+      {
+        "name": "Sulfuric Acid and Sodium Oxide Reaction",
+        "description": "Reaction of sulfuric acid with sodium oxide to produce sodium sulfate and water",
+        "reactants": ["H2SO4", "Na2O"],
+        "products": ["Na2SO4", "H2O"],
+        "balancedEquation": "H2SO4 + Na2O -> Na2SO4 + H2O"
+      },
+      {
+        "name": "Phosphoric Acid and Potassium Hydroxide Reaction",
+        "description": "Reaction of phosphoric acid with potassium hydroxide to produce potassium phosphate and water",
+        "reactants": ["H3PO4", "KOH"],
+        "products": ["K3PO4", "H2O"],
+        "balancedEquation": "H3PO4 + 3KOH -> K3PO4 + 3H2O"
+      },
+      {
+        "name": "Calcium Chloride and Sodium Carbonate Reaction",
+        "description": "Reaction of calcium chloride with sodium carbonate to produce calcium carbonate and sodium chloride",
+        "reactants": ["CaCl2", "Na2CO3"],
+        "products": ["CaCO3", "2NaCl"],
+        "balancedEquation": "CaCl2 + Na2CO3 -> CaCO3 + 2NaCl"
+      },
+      {
+        "name": "Ammonium Nitrate Decomposition",
+        "description": "Decomposition of ammonium nitrate to produce nitrous oxide and water",
+        "reactants": ["NH4NO3"],
+        "products": ["N2O", "2H2O"],
+        "balancedEquation": "2NH4NO3 -> 2N2O + 4H2O"
+      },
+      {
+        "name": "Chlorine and Potassium Bromide Reaction",
+        "description": "Reaction of chlorine with potassium bromide to produce potassium chloride and bromine",
+        "reactants": ["Cl2", "KBr"],
+        "products": ["2KCl", "Br2"],
+        "balancedEquation": "Cl2 + 2KBr -> 2KCl + Br2"
+      },
+      {
+        "name": "Lead Nitrate and Potassium Iodide Reaction",
+        "description": "Reaction of lead(II) nitrate with potassium iodide to produce lead iodide and potassium nitrate",
+        "reactants": ["Pb(NO3)2", "KI"],
+        "products": ["PbI2", "2KNO3"],
+        "balancedEquation": "Pb(NO3)2 + 2KI -> PbI2 + 2KNO3"
+      },
+      {
+        "name": "Thermite Reaction",
+        "description": "Reaction between iron(III) oxide and aluminum to produce iron and aluminum oxide",
+        "reactants": ["Fe2O3", "Al"],
+        "products": ["2Fe", "Al2O3"],
+        "balancedEquation": "Fe2O3 + 2Al -> 2Fe + Al2O3"
+      },
+      {
+        "name": "Sulfuric Acid and Iron Reaction",
+        "description": "Reaction of sulfuric acid with iron to produce iron(II) sulfate, water, and sulfur dioxide",
+        "reactants": ["H2SO4", "Fe"],
+        "products": ["FeSO4", "H2O", "SO2"],
+        "balancedEquation": "H2SO4 + Fe -> FeSO4 + H2O + SO2"
+      },
+      {
+        "name": "Hydrochloric Acid and Sodium Bicarbonate Reaction",
+        "description": "Reaction of hydrochloric acid with sodium bicarbonate to produce sodium chloride, carbon dioxide, and water",
+        "reactants": ["HCl", "NaHCO3"],
+        "products": ["NaCl", "CO2", "H2O"],
+        "balancedEquation": "HCl + NaHCO3 -> NaCl + CO2 + H2O"
+      },
+      {
+        "name": "Ethane Combustion",
+        "description": "Combustion of ethane in oxygen to produce carbon dioxide and water",
+        "reactants": ["C2H6", "O2"],
+        "products": ["CO2", "H2O"],
+        "balancedEquation": "2C2H6 + 7O2 -> 4CO2 + 6H2O"
+      },
+      {
+        "name": "Methane Combustion",
+        "description": "Combustion of methane in oxygen to produce carbon dioxide and water",
+        "reactants": ["CH4", "O2"],
+        "products": ["CO2", "H2O"],
+        "balancedEquation": "CH4 + 2O2 -> CO2 + 2H2O"
+      },
+      {
+        "name": "Sodium Sulfate and Barium Chloride Reaction",
+        "description": "Reaction of sodium sulfate with barium chloride to produce barium sulfate and sodium chloride",
+        "reactants": ["Na2SO4", "BaCl2"],
+        "products": ["BaSO4", "2NaCl"],
+        "balancedEquation": "Na2SO4 + BaCl2 -> BaSO4 + 2NaCl"
+      },
+      {
+        "name": "Benzene Combustion",
+        "description": "Combustion of benzene in oxygen to produce carbon dioxide and water",
+        "reactants": ["C6H6", "O2"],
+        "products": ["CO2", "H2O"],
+        "balancedEquation": "2C6H6 + 15O2 -> 12CO2 + 6H2O"
+      },
+      {
+        "name": "Ethanol Combustion",
+        "description": "Combustion of ethanol in oxygen to produce carbon dioxide and water",
+        "reactants": ["C2H5OH", "O2"],
+        "products": ["CO2", "H2O"],
+        "balancedEquation": "C2H5OH + 3O2 -> 2CO2 + 3H2O"
+      },
+      {
+        "name": "Thermite Reaction",
+        "description": "Reaction between iron(III) oxide and aluminum to produce iron and aluminum oxide",
+        "reactants": ["Fe2O3", "Al"],
+        "products": ["Fe", "Al2O3"],
+        "balancedEquation": "Fe2O3 + 2Al -> 2Fe + Al2O3"
+      },
+      {
+        "name": "Sodium Carbonate and Hydrochloric Acid Reaction",
+        "description": "Reaction of sodium carbonate with hydrochloric acid to produce sodium chloride, carbon dioxide, and water",
+        "reactants": ["Na2CO3", "HCl"],
+        "products": ["NaCl", "CO2", "H2O"],
+        "balancedEquation": "Na2CO3 + 2HCl -> 2NaCl + CO2 + H2O"
+      },
+      {
+        "name": "Sulfuric Acid and Potassium Hydroxide Reaction",
+        "description": "Reaction of sulfuric acid with potassium hydroxide to produce potassium sulfate and water",
+        "reactants": ["H2SO4", "KOH"],
+        "products": ["K2SO4", "H2O"],
+        "balancedEquation": "H2SO4 + 2KOH -> K2SO4 + 2H2O"
+      },
+      {
+        "name": "Aluminum, Hydrochloric Acid, and Oxygen Reaction",
+        "description": "Reaction of aluminum with hydrochloric acid and oxygen to produce aluminum chloride and water",
+        "reactants": ["Al", "HCl", "O2"],
+        "products": ["AlCl3", "H2O"],
+        "balancedEquation": "4Al + 6HCl + 3O2 -> 4AlCl3 + 3H2O"
+      },
+      {
+        "name": "Calcium Carbonate and Hydrochloric Acid Reaction",
+        "description": "Reaction of calcium carbonate with hydrochloric acid to produce calcium chloride, carbon dioxide, and water",
+        "reactants": ["CaCO3", "HCl"],
+        "products": ["CaCl2", "CO2", "H2O"],
+        "balancedEquation": "CaCO3 + 2HCl -> CaCl2 + CO2 + H2O"
+      },
+      {
+        "name": "Ammonia and Oxygen Reaction",
+        "description": "Reaction of ammonia with oxygen to produce nitric oxide and water",
+        "reactants": ["NH3", "O2"],
+        "products": ["NO", "H2O"],
+        "balancedEquation": "4NH3 + 3O2 -> 2NO + 6H2O"
+      },
+      {
+        "name": "Chromium Trioxide and Ethanol Reaction",
+        "description": "Reaction of potassium dichromate with sulfuric acid and ethanol to produce potassium sulfate, chromium(III) sulfate, water, and acetic acid",
+        "reactants": ["K2Cr2O7", "H2SO4", "C2H5OH"],
+        "products": ["K2SO4", "Cr2(SO4)3", "H2O", "CH3COOH"],
+        "balancedEquation": "2K2Cr2O7 + 8H2SO4 + 3C2H5OH -> 2K2SO4 + 2Cr2(SO4)3 + 11H2O + 3CH3COOH"
+      },
+      {
+        "name": "Butane Combustion",
+        "description": "Combustion of butane in oxygen to produce carbon dioxide and water",
+        "reactants": ["C4H10", "O2"],
+        "products": ["CO2", "H2O"],
+        "balancedEquation": "2C4H10 + 13O2 -> 8CO2 + 10H2O"
+      },
+      {
+        "name": "Sodium Hydroxide and Phosphoric Acid Reaction",
+        "description": "Reaction of sodium hydroxide with phosphoric acid to produce sodium phosphate and water",
+        "reactants": ["NaOH", "H3PO4", "H2O"],
+        "products": ["Na3PO4", "2H2O"],
+        "balancedEquation": "3NaOH + H3PO4 -> Na3PO4 + 3H2O"
+      },
+      {
+        "name": "Copper Carbonate Formation",
+        "description": "Reaction between copper sulfate and sodium carbonate in the presence of water to form copper carbonate and sodium sulfate.",
+        "reactants": ["CuSO4", "Na2CO3", "H2O"],
+        "products": ["CuCO3", "Na2SO4", "H2O"],
+        "balancedEquation": "CuSO4 + Na2CO3 -> CuCO3 + Na2SO4"
+      },
+      {
+        "name": "Potassium Nitrate and Sulfuric Acid Reaction",
+        "description": "Reaction of potassium nitrate with sulfuric acid to produce potassium hydrogen sulfate and nitric acid.",
+        "reactants": ["KNO3", "H2SO4"],
+        "products": ["KHSO4", "HNO3"],
+        "balancedEquation": "2KNO3 + H2SO4 -> KHSO4 + HNO3 + KNO3"
+      },
+      {
+        "name": "Iron Oxidation",
+        "description": "Oxidation of iron in the presence of oxygen to form iron(III) oxide.",
+        "reactants": ["Fe", "O2", "H2O"],
+        "products": ["Fe2O3", "H2O"],
+        "balancedEquation": "4Fe + 3O2 -> 2Fe2O3"
+      },
+      {
+        "name": "Sodium Chloride and Sulfuric Acid Reaction",
+        "description": "Reaction of sodium chloride with sulfuric acid to produce sodium hydrogen sulfate and hydrochloric acid.",
+        "reactants": ["NaCl", "H2SO4", "H2O"],
+        "products": ["NaHSO4", "HCl"],
+        "balancedEquation": "NaCl + H2SO4 -> NaHSO4 + HCl"
+      },
+      {
+        "name": "Sulfuric Acid and Hydrogen Peroxide Reaction",
+        "description": "Reaction of sulfuric acid with hydrogen peroxide and iron(II) sulfate to form iron(III) sulfate and water.",
+        "reactants": ["H2SO4", "H2O2", "FeSO4"],
+        "products": ["Fe2(SO4)3", "H2O"],
+        "balancedEquation": "6H2SO4 + 3H2O2 + 2FeSO4 -> 2Fe2(SO4)3 + 6H2O"
+      },
+      {
+        "name": "Acetic Acid Combustion",
+        "description": "Combustion of acetic acid in oxygen to produce carbon dioxide and water.",
+        "reactants": ["CH3COOH", "O2"],
+        "products": ["CO2", "H2O"],
+        "balancedEquation": "2CH3COOH + 5O2 -> 4CO2 + 4H2O"
+      },
+      {
+        "name": "Ammonium Chloride and Sodium Hydroxide Reaction",
+        "description": "Reaction of ammonium chloride with sodium hydroxide to produce sodium chloride, ammonia, and water.",
+        "reactants": ["NH4Cl", "NaOH"],
+        "products": ["NaCl", "NH3", "H2O"],
+        "balancedEquation": "NH4Cl + NaOH -> NaCl + NH3 + H2O"
+      },
+      {
+        "name": "Glucose Oxidation",
+        "description": "Oxidation of glucose in the presence of oxygen to produce carbon dioxide and water.",
+        "reactants": ["C6H12O6", "O2"],
+        "products": ["6CO2", "6H2O"],
+        "balancedEquation": "C6H12O6 + 6O2 -> 6CO2 + 6H2O"
+      },
+      {
+        "name": "Barium Chloride and Sodium Sulfate Reaction",
+        "description": "Reaction of barium chloride with sodium sulfate to produce barium sulfate and sodium chloride.",
+        "reactants": ["BaCl2", "Na2SO4"],
+        "products": ["BaSO4", "2NaCl"],
+        "balancedEquation": "BaCl2 + Na2SO4 -> BaSO4 + 2NaCl"
+      },
+      {
+        "name": "Zinc, Hydrochloric Acid, and Sodium Hydroxide Reaction",
+        "description": "Reaction of zinc with hydrochloric acid and sodium hydroxide to produce zinc chloride, water, and sodium chloride.",
+        "reactants": ["Zn", "HCl", "NaOH"],
+        "products": ["ZnCl2", "H2O", "NaCl"],
+        "balancedEquation": "Zn + 2HCl + 2NaOH -> ZnCl2 + 2H2O + 2NaCl"
+      },
+      {
+        "name": "Hydrogen and Chlorine Reaction",
+        "description": "Reaction of hydrogen with chlorine and sodium hydroxide to produce sodium chloride and water.",
+        "reactants": ["H2", "Cl2", "NaOH"],
+        "products": ["NaCl", "H2O"],
+        "balancedEquation": "H2 + Cl2 + 2NaOH -> 2NaCl + 2H2O"
+      },
+      {
+        "name": "Cyclohexane Combustion",
+        "description": "Combustion of cyclohexane in oxygen to produce carbon dioxide and water.",
+        "reactants": ["C6H12", "O2", "H2O"],
+        "products": ["CO2", "H2O"],
+        "balancedEquation": "2C6H12 + 17O2 -> 12CO2 + 12H2O"
+      },
+      {
+        "name": "Sulfuric Acid and Iron Reaction with Hydrogen Peroxide",
+        "description": "Reaction of sulfuric acid with iron and hydrogen peroxide to form iron(III) sulfate and water.",
+        "reactants": ["H2SO4", "Fe", "H2O2"],
+        "products": ["Fe2(SO4)3", "H2O"],
+        "balancedEquation": "6H2SO4 + 3H2O2 + 2Fe -> 2Fe2(SO4)3 + 6H2O"
+      },
+      {
+        "name": "Aluminum and Sulfuric Acid Reaction",
+        "description": "Reaction of aluminum with sulfuric acid and oxygen to produce aluminum sulfate and water.",
+        "reactants": ["Al", "H2SO4", "O2"],
+        "products": ["Al2(SO4)3", "H2O"],
+        "balancedEquation": "2Al + 6H2SO4 + 3O2 -> Al2(SO4)3 + 6H2O"
+      },
+      {
+        "name": "Acetone Combustion",
+        "description": "Combustion of acetone in oxygen to produce carbon dioxide and water.",
+        "reactants": ["C3H6O", "O2"],
+        "products": ["CO2", "H2O"],
+        "balancedEquation": "C3H6O + 3O2 -> 3CO2 + 3H2O"
+      },
+      {
+        "name": "Potassium Dichromate Oxidation of Benzene",
+        "description": "Oxidation of benzene with potassium dichromate and sulfuric acid to produce potassium sulfate, chromium(III) sulfate, water, and benzene oxide.",
+        "reactants": ["K2Cr2O7", "H2SO4", "C6H6"],
+        "products": ["K2SO4", "Cr2(SO4)3", "H2O", "C6H6O"],
+        "balancedEquation": "2K2Cr2O7 + 8H2SO4 + 3C6H6 -> 2K2SO4 + 2Cr2(SO4)3 + 11H2O + 3C6H6O"
+      },
+      {
+        "name": "Ethylene Combustion",
+        "description": "Combustion of ethylene in oxygen to produce carbon dioxide and water.",
+        "reactants": ["C2H4", "O2"],
+        "products": ["CO2", "H2O"],
+        "balancedEquation": "C2H4 + 3O2 -> 2CO2 + 2H2O"
+      },
+      {
+        "name": "Calcium Hydroxide and Sulfuric Acid Reaction",
+        "description": "Reaction of calcium hydroxide with sulfuric acid to produce calcium sulfate and water.",
+        "reactants": ["Ca(OH)2", "H2SO4"],
+        "products": ["CaSO4", "2H2O"],
+        "balancedEquation": "Ca(OH)2 + H2SO4 -> CaSO4 + 2H2O"
+      },
+      {
+        "name": "Haber Process",
+        "description": "Reaction of nitrogen and hydrogen to form ammonia.",
+        "reactants": ["N2", "H2"],
+        "products": ["NH3"],
+        "balancedEquation": "N2 + 3H2 -> 2NH3"
+      },
+      {
+        "name": "Butane Combustion",
+        "description": "Combustion of butane in oxygen to produce carbon dioxide and water.",
+        "reactants": ["C4H10", "O2"],
+        "products": ["CO2", "H2O"],
+        "balancedEquation": "2C4H10 + 13O2 -> 8CO2 + 10H2O"
+      },
+      {
+        "name": "Potassium Chlorate and Hydrochloric Acid Reaction",
+        "description": "Reaction of potassium chlorate with hydrochloric acid to produce potassium chloride, chlorine gas, and water.",
+        "reactants": ["KClO3", "HCl", "Na2SO4"],
+        "products": ["KCl", "Cl2", "Na2SO4", "H2O"],
+        "balancedEquation": "2KClO3 + 6HCl -> 2KCl + 3Cl2 + 3H2O"
+      },
+      {
+        "name": "Sodium Bicarbonate and Sulfuric Acid Reaction",
+        "description": "Reaction of sodium bicarbonate with sulfuric acid to produce sodium sulfate, carbon dioxide, and water.",
+        "reactants": ["NaHCO3", "H2SO4", "H2O"],
+        "products": ["Na2SO4", "CO2", "H2O"],
+        "balancedEquation": "2NaHCO3 + H2SO4 -> Na2SO4 + CO2 + 2H2O"
+      },
+      {
+        "name": "Benzene Combustion",
+        "description": "Combustion of benzene in oxygen to produce carbon dioxide and water.",
+        "reactants": ["C6H6", "O2", "H2O"],
+        "products": ["CO2", "H2O"],
+        "balancedEquation": "2C6H6 + 15O2 -> 12CO2 + 6H2O"
+      },
+      {
+        "name": "Hydrogen, Oxygen, and Nitrogen Reaction",
+        "description": "Reaction of hydrogen with oxygen and nitrogen to produce water and nitric oxide.",
+        "reactants": ["H2", "O2", "N2"],
+        "products": ["H2O", "NO"],
+        "balancedEquation": "2H2 + O2 + 4NO -> 2H2O + 2NO"
+      },
+      {
+        "name": "Glucose Oxidation (Alternate Reaction)",
+        "description": "Alternate oxidation reaction of glucose in the presence of oxygen to produce carbon dioxide and water.",
+        "reactants": ["C6H12O6", "O2", "H2O"],
+        "products": ["6CO2", "6H2O"],
+        "balancedEquation": "C6H12O6 + 6O2 -> 6CO2 + 6H2O"
+      },
+      {
+        "name": "Ammonium Nitrate Decomposition",
+        "description": "Decomposition of ammonium nitrate to produce nitrous oxide and water.",
+        "reactants": ["NH4NO3", "H2O"],
+        "products": ["N2O", "H2O"],
+        "balancedEquation": "2NH4NO3 -> 2N2O + 4H2O"
+      },
+      {
+        "name": "Potassium Sulfate and Barium Nitrate Reaction",
+        "description": "Reaction of potassium sulfate with barium nitrate to produce barium sulfate and potassium nitrate.",
+        "reactants": ["K2SO4", "Ba(NO3)2"],
+        "products": ["BaSO4", "2KNO3"],
+        "balancedEquation": "K2SO4 + Ba(NO3)2 -> BaSO4 + 2KNO3"
+      },
+      {
+        "name": "Sodium Carbonate and Hydrochloric Acid Reaction",
+        "description": "Reaction of sodium carbonate with hydrochloric acid to produce sodium chloride, carbon dioxide, and water.",
+        "reactants": ["Na2CO3", "HCl", "H2O"],
+        "products": ["NaCl", "CO2", "H2O"],
+        "balancedEquation": "Na2CO3 + 2HCl -> 2NaCl + CO2 + H2O"
+      },
+      {
+        "name": "Acetic Acid Combustion",
+        "description": "Combustion of acetic acid in oxygen to produce carbon dioxide and water.",
+        "reactants": ["CH3COOH", "O2"],
+        "products": ["CO2", "H2O"],
+        "balancedEquation": "2CH3COOH + 5O2 -> 4CO2 + 4H2O"
+      },
+      {
+        "name": "Calcium Carbonate and Hydrochloric Acid Reaction",
+        "description": "Reaction of calcium carbonate with hydrochloric acid to produce calcium chloride, carbon dioxide, and water.",
+        "reactants": ["CaCO3", "HCl"],
+        "products": ["CaCl2", "CO2", "H2O"],
+        "balancedEquation": "CaCO3 + 2HCl -> CaCl2 + CO2 + H2O"
+      },
+      {
+        "name": "Zinc, Sulfuric Acid, and Copper Sulfate Reaction",
+        "description": "Reaction of zinc with sulfuric acid and copper sulfate to produce zinc sulfate, copper, and water.",
+        "reactants": ["Zn", "H2SO4", "CuSO4"],
+        "products": ["ZnSO4", "Cu", "H2O"],
+        "balancedEquation": "Zn + H2SO4 + CuSO4 -> ZnSO4 + Cu + H2O"
+      },
+      {
+        "name": "Sodium Thiosulfate and Hydrochloric Acid Reaction",
+        "description": "Reaction of sodium thiosulfate with hydrochloric acid to produce sodium chloride, sulfur dioxide, and water.",
+        "reactants": ["Na2S2O3", "HCl"],
+        "products": ["NaCl", "SO2", "H2O"],
+        "balancedEquation": "Na2S2O3 + 2HCl -> 2NaCl + SO2 + H2O"
+      },
+      {
+        "name": "Hydrogen Sulfide and Chlorine Reaction",
+        "description": "Reaction of hydrogen sulfide with chlorine to produce sulfur and hydrochloric acid.",
+        "reactants": ["H2S", "Cl2"],
+        "products": ["S", "HCl"],
+        "balancedEquation": "H2S + Cl2 -> S + 2HCl"
+      },
+      {
+        "name": "Acetone Combustion",
+        "description": "Combustion of acetone in oxygen to produce carbon dioxide and water.",
+        "reactants": ["C3H6O", "O2"],
+        "products": ["CO2", "H2O"],
+        "balancedEquation": "C3H6O + 3O2 -> 3CO2 + 3H2O"
+      },
+      {
+        "name": "Iron and Hydrochloric Acid Reaction with Oxygen",
+        "description": "Reaction of iron with hydrochloric acid and oxygen to produce iron(III) chloride and water.",
+        "reactants": ["Fe", "HCl", "O2"],
+        "products": ["FeCl3", "H2O"],
+        "balancedEquation": "2Fe + 6HCl + 3O2 -> 2FeCl3 + 3H2O"
+      },
+      {
+        "name": "Sodium Oxide and Water Reaction",
+        "description": "Reaction of sodium oxide with water to produce sodium hydroxide.",
+        "reactants": ["Na2O", "H2O"],
+        "products": ["NaOH"],
+        "balancedEquation": "Na2O + H2O -> 2NaOH"
+      },
+      {
+        "name": "Barium Chloride and Sodium Carbonate Reaction",
+        "description": "Reaction of barium chloride with sodium carbonate to produce barium carbonate and sodium chloride.",
+        "reactants": ["BaCl2", "Na2CO3"],
+        "products": ["BaCO3", "2NaCl"],
+        "balancedEquation": "BaCl2 + Na2CO3 -> BaCO3 + 2NaCl"
+      },
+      {
+        "name": "Hydrogen Iodide Formation",
+        "description": "Reaction of hydrogen and iodine with oxygen to produce hydrogen iodide and water.",
+        "reactants": ["H2", "I2", "O2"],
+        "products": ["HI", "H2O"],
+        "balancedEquation": "H2 + I2 + O2 -> 2HI + H2O"
+      },
+      {
+        "name": "Ethanol Combustion",
+        "description": "Combustion of ethanol in oxygen to produce carbon dioxide and water.",
+        "reactants": ["C2H5OH", "O2"],
+        "products": ["CO2", "H2O"],
+        "balancedEquation": "C2H5OH + 3O2 -> 2CO2 + 3H2O"
+      },
+      {
+        "name": "Magnesium and Hydrochloric Acid Reaction with Oxygen",
+        "description": "Reaction of magnesium with hydrochloric acid and oxygen to produce magnesium chloride and water.",
+        "reactants": ["Mg", "HCl", "O2"],
+        "products": ["MgCl2", "H2O"],
+        "balancedEquation": "Mg + 2HCl + O2 -> MgCl2 + H2O"
+      },
+      {
+        "name": "Butane Combustion with Nitrogen",
+        "description": "Combustion of butane with oxygen and nitrogen to produce carbon dioxide, water, and nitrous oxide.",
+        "reactants": ["C4H10", "O2", "N2"],
+        "products": ["CO2", "H2O", "N2O"],
+        "balancedEquation": "2C4H10 + 13O2 + 4N2 -> 8CO2 + 10H2O + 4N2O"
+      },
+      {
+        "name": "Methane Combustion with Nitrogen",
+        "description": "Combustion of methane with oxygen and nitrogen to produce carbon dioxide, water, and nitrous oxide.",
+        "reactants": ["CH4", "O2", "N2"],
+        "products": ["CO2", "H2O", "N2O"],
+        "balancedEquation": "CH4 + 2O2 + 2N2 -> CO2 + 2H2O + 2N2O"
+      },
+      {
+        "name": "Hydrogen Bromide Formation",
+        "description": "Reaction of hydrogen with bromine and oxygen to produce hydrogen bromide and water.",
+        "reactants": ["H2", "Br2", "O2"],
+        "products": ["HBr", "H2O"],
+        "balancedEquation": "H2 + Br2 + O2 -> 2HBr + H2O"
+      },
+      {
+        "name": "Ascorbic Acid Combustion",
+        "description": "Combustion of ascorbic acid (vitamin C) in oxygen to produce carbon dioxide and water.",
+        "reactants": ["C6H6O6", "O2"],
+        "products": ["CO2", "H2O"],
+        "balancedEquation": "C6H6O6 + 6O2 -> 6CO2 + 6H2O"
+      },
+      {
+        "name": "Butyne Hydrogenation",
+        "description": "Hydrogenation of butyne to produce butanoic acid.",
+        "reactants": ["C4H6", "H2", "O2"],
+        "products": ["C4H8O2"],
+        "balancedEquation": "C4H6 + 2H2 + O2 -> C4H8O2"
+      },
+      {
+        "name": "Acetylene Oxidation",
+        "description": "Oxidation of acetylene to produce carbon dioxide and water.",
+        "reactants": ["C3H4", "O2"],
+        "products": ["CO2", "H2O"],
+        "balancedEquation": "2C3H4 + 7O2 -> 6CO2 + 4H2O"
+      },
+      {
+        "name": "Thermite Reaction",
+        "description": "Reaction of iron(III) oxide with aluminum to produce iron and aluminum oxide.",
+        "reactants": ["Fe2O3", "Al"],
+        "products": ["Fe", "Al2O3"],
+        "balancedEquation": "Fe2O3 + 2Al -> 2Fe + Al2O3"
+      },
+      {
+        "name": "Benzene Oxidation",
+        "description": "Oxidation of benzene with sulfuric acid and potassium dichromate to produce potassium sulfate, chromium(III) sulfate, water, and benzenesulfonic acid.",
+        "reactants": ["H2SO4", "K2Cr2O7", "C6H6"],
+        "products": ["K2SO4", "Cr2(SO4)3", "H2O", "C6H5SO3H"],
+        "balancedEquation": "2K2Cr2O7 + 8H2SO4 + 3C6H6 -> 2K2SO4 + 2Cr2(SO4)3 + 11H2O + 3C6H5SO3H"
+      },
+      {
+        "name": "Ammonia Oxidation",
+        "description": "Oxidation of ammonia to produce nitrogen monoxide and water.",
+        "reactants": ["NH3", "O2"],
+        "products": ["NO", "H2O"],
+        "balancedEquation": "4NH3 + 3O2 -> 2NO + 6H2O"
+      },
+      {
+        "name": "Ethanol Combustion",
+        "description": "Combustion of ethanol in oxygen to produce carbon dioxide and water.",
+        "reactants": ["C2H6O", "O2"],
+        "products": ["CO2", "H2O"],
+        "balancedEquation": "C2H6O + 3O2 -> 2CO2 + 3H2O"
+      },
+      {
+        "name": "Dinitrogen Tetroxide Hydrolysis",
+        "description": "Hydrolysis of dinitrogen tetroxide to produce nitric acid and nitrogen monoxide.",
+        "reactants": ["N2O4", "H2O", "HNO3"],
+        "products": ["HNO2", "HNO3"],
+        "balancedEquation": "N2O4 + 2H2O -> 2HNO3 + 2NO"
+      },
+      {
+        "name": "Acetylene Chlorination",
+        "description": "Reaction of acetylene with chlorine and water to produce 1,2-dichloroethane and hydrochloric acid.",
+        "reactants": ["C2H2", "Cl2", "H2O"],
+        "products": ["C2H2Cl2", "HCl"],
+        "balancedEquation": "C2H2 + Cl2 + H2O -> C2H2Cl2 + 2HCl"
+      },
+      {
+        "name": "Hydrogen Peroxide and Iron(II) Sulfate Reaction",
+        "description": "Reaction of hydrogen peroxide with iron(II) sulfate to produce iron(III) sulfate and water.",
+        "reactants": ["H2O2", "FeSO4"],
+        "products": ["Fe2(SO4)3", "H2O"],
+        "balancedEquation": "3H2O2 + 2FeSO4 -> Fe2(SO4)3 + 3H2O"
+      },
+      {
+        "name": "Butanol Combustion",
+        "description": "Combustion of butanol in oxygen to produce carbon dioxide and water.",
+        "reactants": ["C4H10O", "O2"],
+        "products": ["CO2", "H2O"],
+        "balancedEquation": "C4H10O + 6O2 -> 4CO2 + 5H2O"
+      },
+      {
+        "name": "Potassium Oxide and Water Reaction",
+        "description": "Reaction of potassium oxide with water to produce potassium hydroxide.",
+        "reactants": ["K2O", "H2O"],
+        "products": ["2KOH"],
+        "balancedEquation": "K2O + H2O -> 2KOH"
+      },
+      {
+        "name": "Acetic Acid and Hydrogen Peroxide Reaction",
+        "description": "Reaction of acetic acid with hydrogen peroxide to produce peracetic acid and oxygen.",
+        "reactants": ["CH3COOH", "H2O2"],
+        "products": ["CH3COOH2", "O2"],
+        "balancedEquation": "CH3COOH + H2O2 -> CH3COOH2 + O2"
+      },
+      {
+        "name": "Ascorbic Acid and Sodium Carbonate Reaction",
+        "description": "Reaction of ascorbic acid with sodium carbonate to produce sodium citrate and carbon dioxide.",
+        "reactants": ["C6H6O6", "Na2CO3"],
+        "products": ["NaC6H5O7", "CO2"],
+        "balancedEquation": "C6H6O6 + Na2CO3 -> NaC6H5O7 + CO2 + H2O"
+      },
+      {
+        "name": "Calcium Chloride and Sodium Carbonate Reaction",
+        "description": "Reaction of calcium chloride with sodium carbonate to produce calcium carbonate and sodium chloride.",
+        "reactants": ["CaCl2", "Na2CO3"],
+        "products": ["CaCO3", "2NaCl"],
+        "balancedEquation": "CaCl2 + Na2CO3 -> CaCO3 + 2NaCl"
+      },
+      {
+        "name": "Ethylene Dichloride Formation",
+        "description": "Reaction of ethylene with chlorine and water to produce 1,2-dichloroethane and hydrochloric acid.",
+        "reactants": ["C2H4", "Cl2", "H2O"],
+        "products": ["C2H4Cl2", "HCl"],
+        "balancedEquation": "C2H4 + Cl2 + H2O -> C2H4Cl2 + HCl"
+      },
+      {
+        "name": "Ammonium Chloride Dissociation",
+        "description": "Dissociation of ammonium chloride in water to produce ammonia, hydrochloric acid, and water.",
+        "reactants": ["NH4Cl", "H2O"],
+        "products": ["NH3", "HCl", "H2O"],
+        "balancedEquation": "NH4Cl + H2O -> NH3 + HCl + H2O"
+      },
+      {
+        "name": "Hydrogen Chloride Formation",
+        "description": "Reaction of hydrogen with chlorine and sodium hydroxide to produce sodium chloride and water.",
+        "reactants": ["H2", "Cl2", "NaOH"],
+        "products": ["NaCl", "H2O"],
+        "balancedEquation": "H2 + Cl2 + 2NaOH -> 2NaCl + 2H2O"
+      },
+      {
+        "name": "Propylene Combustion",
+        "description": "Combustion of propylene in oxygen to produce carbon dioxide and water.",
+        "reactants": ["C3H6", "O2", "H2O"],
+        "products": ["CO2", "H2O"],
+        "balancedEquation": "C3H6 + 3O2 -> 3CO2 + 3H2O"
+      },
+      {
+        "name": "Benzene Oxidation (Duplicate)",
+        "description": "Oxidation of benzene with sulfuric acid and potassium dichromate to produce potassium sulfate, chromium(III) sulfate, water, and benzenesulfonic acid.",
+        "reactants": ["H2SO4", "K2Cr2O7", "C6H6"],
+        "products": ["K2SO4", "Cr2(SO4)3", "H2O", "C6H5SO3H"],
+        "balancedEquation": "2K2Cr2O7 + 8H2SO4 + 3C6H6 -> 2K2SO4 + 2Cr2(SO4)3 + 11H2O + 3C6H5SO3H"
+      },
+      {
+        "name": "Sodium Sulfate and Barium Chloride Reaction",
+        "description": "Reaction of sodium sulfate with barium chloride to produce barium sulfate and sodium chloride.",
+        "reactants": ["Na2SO4", "BaCl2"],
+        "products": ["BaSO4", "2NaCl"],
+        "balancedEquation": "Na2SO4 + BaCl2 -> BaSO4 + 2NaCl"
+      },
+      {
+        "name": "Butane Combustion",
+        "description": "Combustion of butane in oxygen to produce carbon dioxide and water.",
+        "reactants": ["C4H10", "O2"],
+        "products": ["CO2", "H2O"],
+        "balancedEquation": "2C4H10 + 13O2 -> 8CO2 + 10H2O"
+      },
+      {
+        "name": "Ammonium Nitrate Decomposition",
+        "description": "Decomposition of ammonium nitrate to produce nitrous oxide and water.",
+        "reactants": ["NH4NO3"],
+        "products": ["N2O", "H2O"],
+        "balancedEquation": "2NH4NO3 -> 2N2O + 4H2O"
+      },
+      {
+        "name": "Potassium Carbonate and Hydrochloric Acid Reaction",
+        "description": "Reaction of potassium carbonate with hydrochloric acid to produce potassium chloride, carbon dioxide, and water.",
+        "reactants": ["K2CO3", "HCl"],
+        "products": ["KCl", "CO2", "H2O"],
+        "balancedEquation": "K2CO3 + 2HCl -> 2KCl + CO2 + H2O"
+      },
+      {
+        "name": "Iron and Sulfuric Acid Reaction",
+        "description": "Reaction of iron with sulfuric acid to produce iron(II) sulfate and hydrogen gas.",
+        "reactants": ["Fe", "H2SO4"],
+        "products": ["FeSO4", "H2"],
+        "balancedEquation": "Fe + H2SO4 -> FeSO4 + H2"
+      },
+      {
+        "name": "Cyclohexane Combustion",
+        "description": "Combustion of cyclohexane in oxygen to produce carbon dioxide and water.",
+        "reactants": ["C6H12", "O2"],
+        "products": ["CO2", "H2O"],
+        "balancedEquation": "C6H12 + 9O2 -> 6CO2 + 6H2O"
+      },
+      {
+        "name": "Magnesium Chloride Formation",
+        "description": "Reaction of magnesium with chlorine to produce magnesium chloride.",
+        "reactants": ["Mg", "Cl2"],
+        "products": ["MgCl2"],
+        "balancedEquation": "Mg + Cl2 -> MgCl2"
+      },
+      {
+        "name": "Hydrogen Sulfide Oxidation",
+        "description": "Oxidation of hydrogen sulfide with oxygen and chlorine to produce sulfur dioxide and hydrochloric acid.",
+        "reactants": ["H2S", "O2", "Cl2"],
+        "products": ["SO2", "HCl"],
+        "balancedEquation": "2H2S + 3O2 + 4Cl2 -> 2SO2 + 4HCl"
+      },
+      {
+        "name": "Acetone Combustion",
+        "description": "Combustion of acetone in oxygen to produce carbon dioxide and water.",
+        "reactants": ["C3H6O", "O2"],
+        "products": ["CO2", "H2O"],
+        "balancedEquation": "C3H6O + 4O2 -> 3CO2 + 3H2O"
+      },
+      {
+        "name": "Zinc Reaction with Acid and Silver Nitrate",
+        "description": "Reaction of zinc with hydrochloric acid and silver nitrate to produce zinc chloride, silver, and water.",
+        "reactants": ["Zn", "HCl", "AgNO3"],
+        "products": ["ZnCl2", "Ag", "H2O"],
+        "balancedEquation": "Zn + 2HCl + 2AgNO3 -> ZnCl2 + 2Ag + 2H2O"
+      },
+      {
+        "name": "Ammonia Oxidation (Duplicate)",
+        "description": "Oxidation of ammonia to produce nitrogen monoxide and water.",
+        "reactants": ["NH3", "O2"],
+        "products": ["NO", "H2O"],
+        "balancedEquation": "4NH3 + 3O2 -> 2NO + 6H2O"
+      },
+      {
+        "name": "Methanol Combustion",
+        "description": "Combustion of methanol in oxygen to produce carbon dioxide and water.",
+        "reactants": ["CH3OH", "O2"],
+        "products": ["CO2", "H2O"],
+        "balancedEquation": "2CH3OH + 3O2 -> 2CO2 + 4H2O"
+      },
+      {
+        "name": "Sodium Sulfide and Hydrochloric Acid Reaction",
+        "description": "Reaction of sodium sulfide with hydrochloric acid to produce sodium chloride and hydrogen sulfide.",
+        "reactants": ["Na2S", "HCl"],
+        "products": ["NaCl", "H2S"],
+        "balancedEquation": "Na2S + 2HCl -> 2NaCl + H2S"
+      },
+      {
+        "name": "Benzene Chlorination",
+        "description": "Reaction of benzene with chlorine to produce chlorobenzene and hydrochloric acid.",
+        "reactants": ["C6H6", "Cl2"],
+        "products": ["C6H5Cl", "HCl"],
+        "balancedEquation": "C6H6 + Cl2 -> C6H5Cl + HCl"
+      },
+      {
+        "name": "Hydrogen Bromide Formation",
+        "description": "Reaction of hydrogen with bromine to produce hydrogen bromide.",
+        "reactants": ["H2", "Br2"],
+        "products": ["HBr"],
+        "balancedEquation": "H2 + Br2 -> 2HBr"
+      },
+      {
+        "name": "Butanol Combustion",
+        "description": "Combustion of butanol in oxygen to produce carbon dioxide and water.",
+        "reactants": ["C4H10O", "O2"],
+        "products": ["CO2", "H2O"],
+        "balancedEquation": "C4H10O + 6O2 -> 4CO2 + 5H2O"
+      },
+      {
+        "name": "Sodium Bicarbonate and Hydrochloric Acid Reaction",
+        "description": "Reaction of sodium bicarbonate with hydrochloric acid to produce sodium chloride, carbon dioxide, and water.",
+        "reactants": ["NaHCO3", "HCl"],
+        "products": ["NaCl", "CO2", "H2O"],
+        "balancedEquation": "NaHCO3 + HCl -> NaCl + CO2 + H2O"
+      },
+      {
+        "name": "Aluminum and Hydrochloric Acid Reaction",
+        "description": "Reaction of aluminum with hydrochloric acid and oxygen to produce aluminum chloride and water.",
+        "reactants": ["Al", "HCl", "O2"],
+        "products": ["AlCl3", "H2O"],
+        "balancedEquation": "2Al + 6HCl + 3O2 -> 2AlCl3 + 3H2O"
+      },
+      {
+        "name": "Ethylene Combustion with Nitrogen",
+        "description": "Combustion of ethylene with oxygen and nitrogen to produce carbon dioxide, water, and nitrogen.",
+        "reactants": ["C2H4", "O2", "N2"],
+        "products": ["CO2", "H2O", "N2"],
+        "balancedEquation": "C2H4 + 3O2 + N2 -> 2CO2 + 2H2O + N2"
+      },
+      {
+        "name": "Sulfur Dioxide Formation",
+        "description": "Reaction of sulfuric acid with sodium thiosulfate to produce sodium sulfate, sulfur dioxide, and water.",
+        "reactants": ["H2SO4", "Na2S2O3"],
+        "products": ["Na2SO4", "SO2", "H2O"],
+        "balancedEquation": "H2SO4 + Na2S2O3 -> Na2SO4 + 2SO2 + H2O"
+      },
+      {
+        "name": "Acetylene Bromination",
+        "description": "Reaction of acetylene with bromine and water to produce 1,2-dibromoethane and hydrogen bromide.",
+        "reactants": ["C2H2", "Br2", "H2O"],
+        "products": ["C2H2Br2", "HBr"],
+        "balancedEquation": "C2H2 + Br2 + H2O -> C2H2Br2 + HBr"
+      },
+      {
+        "name": "Propane Combustion",
+        "description": "Combustion of propane in oxygen to produce carbon dioxide and water.",
+        "reactants": ["C3H8", "O2"],
+        "products": ["CO2", "H2O"],
+        "balancedEquation": "C3H8 + 5O2 -> 3CO2 + 4H2O"
+      },
+      {
+        "name": "Hydrogen and Nitrous Oxide Reaction",
+        "description": "Reaction of hydrogen with nitrous oxide to produce water and nitrogen.",
+        "reactants": ["H2", "O2", "N2O"],
+        "products": ["H2O", "N2"],
+        "balancedEquation": "2H2 + N2O -> 2H2O + N2"
+      },
+      {
+        "name": "Potassium Chloride and Sulfuric Acid Reaction",
+        "description": "Reaction of potassium chloride with sulfuric acid to produce potassium sulfate and hydrochloric acid.",
+        "reactants": ["KCl", "H2SO4"],
+        "products": ["K2SO4", "HCl"],
+        "balancedEquation": "2KCl + H2SO4 -> K2SO4 + 2HCl"
+      },
+      {
+        "name": "Sodium Hydroxide and Sulfuric Acid Reaction",
+        "description": "Reaction of sodium hydroxide with sulfuric acid to produce sodium sulfate and water.",
+        "reactants": ["NaOH", "H2SO4"],
+        "products": ["Na2SO4", "H2O"],
+        "balancedEquation": "2NaOH + H2SO4 -> Na2SO4 + 2H2O"
+      },
+      {
+        "name": "Calcium Oxide and Water Reaction",
+        "description": "Reaction of calcium oxide with water to produce calcium hydroxide.",
+        "reactants": ["CaO", "H2O"],
+        "products": ["Ca(OH)2"],
+        "balancedEquation": "CaO + H2O -> Ca(OH)2"
+      },
+      {
+        "name": "Butane Chlorination",
+        "description": "Reaction of butane with chlorine to produce chlorobutane and hydrochloric acid.",
+        "reactants": ["C4H10", "Cl2"],
+        "products": ["C4H9Cl", "HCl"],
+        "balancedEquation": "C4H10 + Cl2 -> C4H9Cl + HCl"
+      },
+      {
+        "name": "Ammonia Oxidation with Chlorine",
+        "description": "Oxidation of ammonia with oxygen and hydrochloric acid to produce nitrogen monoxide, water, and chlorine.",
+        "reactants": ["NH3", "O2", "HCl"],
+        "products": ["NO", "H2O", "Cl2"],
+        "balancedEquation": "4NH3 + 5O2 + 6HCl -> 4NO + 6H2O + 6Cl2"
+      },
+      {
+        "name": "Cyclohexane Chlorination",
+        "description": "Reaction of cyclohexane with chlorine to produce chlorocyclohexane and hydrochloric acid.",
+        "reactants": ["C6H12", "Cl2"],
+        "products": ["C6H11Cl", "HCl"],
+        "balancedEquation": "C6H12 + Cl2 -> C6H11Cl + HCl"
+      },
+      {
+        "name": "Iron Oxide and Hydrochloric Acid Reaction",
+        "description": "Reaction of iron(III) oxide with hydrochloric acid to produce iron(III) chloride and water.",
+        "reactants": ["Fe2O3", "HCl"],
+        "products": ["FeCl3", "H2O"],
+        "balancedEquation": "Fe2O3 + 6HCl -> 2FeCl3 + 3H2O"
+      },
+      {
+        "name": "Acetylene Combustion with Nitrogen",
+        "description": "Combustion of acetylene with oxygen and nitrogen to produce carbon dioxide, water, and nitrogen.",
+        "reactants": ["C2H2", "O2", "N2"],
+        "products": ["CO2", "H2O", "N2"],
+        "balancedEquation": "2C2H2 + 5O2 + 2N2 -> 4CO2 + 2H2O + 2N2"
+      },
+      {
+        "name": "Hydrogen Sulfide Oxidation",
+        "description": "Oxidation of hydrogen sulfide with oxygen to produce sulfur dioxide and water.",
+        "reactants": ["H2S", "O2"],
+        "products": ["SO2", "H2O"],
+        "balancedEquation": "2H2S + 3O2 -> 2SO2 + 2H2O"
+      },
+      {
+        "name": "Butanol Combustion",
+        "description": "Combustion of butanol in oxygen to produce carbon dioxide and water.",
+        "reactants": ["C4H10O", "O2"],
+        "products": ["CO2", "H2O"],
+        "balancedEquation": "C4H10O + 6O2 -> 4CO2 + 5H2O"
+      },
+      {
+        "name": "Potassium Oxide and Water Reaction",
+        "description": "Reaction of potassium oxide with water to produce potassium hydroxide.",
+        "reactants": ["K2O", "H2O"],
+        "products": ["2KOH"],
+        "balancedEquation": "K2O + H2O -> 2KOH"
+      },
+      {
+        "name": "Benzene Combustion",
+        "description": "Combustion of benzene in oxygen to produce carbon dioxide and water.",
+        "reactants": ["C6H6", "O2"],
+        "products": ["CO2", "H2O"],
+        "balancedEquation": "2C6H6 + 15O2 -> 12CO2 + 6H2O"
+      },
+      {
+        "name": "Propyne Combustion",
+        "description": "Combustion of propyne in oxygen to produce carbon dioxide and water.",
+        "reactants": ["C3H4", "O2"],
+        "products": ["CO2", "H2O"],
+        "balancedEquation": "2C3H4 + 9O2 -> 6CO2 + 4H2O"
+      },
+      {
+        "name": "Sodium Sulfate and Barium Chloride Reaction",
+        "description": "Reaction of sodium sulfate with barium chloride to produce barium sulfate and sodium chloride.",
+        "reactants": ["Na2SO4", "BaCl2"],
+        "products": ["BaSO4", "2NaCl"],
+        "balancedEquation": "Na2SO4 + BaCl2 -> BaSO4 + 2NaCl"
+      },
+      {
+        "name": "Butene Combustion with Nitrogen",
+        "description": "Combustion of butene in oxygen and nitrogen to produce carbon dioxide, water, and nitrogen.",
+        "reactants": ["C4H8", "O2", "N2"],
+        "products": ["CO2", "H2O", "N2"],
+        "balancedEquation": "C4H8 + 6O2 + N2 -> 4CO2 + 4H2O + N2"
+      },
+      {
+        "name": "Sodium Bicarbonate and Acetic Acid Reaction",
+        "description": "Reaction of sodium bicarbonate with acetic acid to produce sodium acetate, carbon dioxide, and water.",
+        "reactants": ["NaHCO3", "CH3COOH"],
+        "products": ["CH3COONa", "CO2", "H2O"],
+        "balancedEquation": "NaHCO3 + CH3COOH -> CH3COONa + CO2 + H2O"
+      },
+      {
+        "name": "Aluminum and Bromine Reaction",
+        "description": "Reaction of aluminum with bromine to produce aluminum bromide.",
+        "reactants": ["Al", "Br2"],
+        "products": ["AlBr3"],
+        "balancedEquation": "2Al + 3Br2 -> 2AlBr3"
+      },
+      {
+        "name": "Hydrogen, Chlorine, and Oxygen Reaction",
+        "description": "Reaction of hydrogen with chlorine and oxygen to produce hydrochloric acid and water.",
+        "reactants": ["H2", "Cl2", "O2"],
+        "products": ["HCl", "H2O"],
+        "balancedEquation": "H2 + Cl2 + O2 -> 2HCl + H2O"
+      },
+      {
+        "name": "Ammonia Oxidation",
+        "description": "Oxidation of ammonia with oxygen to produce nitrogen monoxide and water.",
+        "reactants": ["NH3", "O2", "H2O"],
+        "products": ["NO", "H2O"],
+        "balancedEquation": "4NH3 + 5O2 -> 4NO + 6H2O"
+      },
+      {
+        "name": "Acetylene and Chlorine Reaction",
+        "description": "Reaction of acetylene with chlorine and water to produce 1,2-dichloroethane and hydrochloric acid.",
+        "reactants": ["C2H2", "Cl2", "H2O"],
+        "products": ["C2H2Cl2", "HCl"],
+        "balancedEquation": "C2H2 + Cl2 + H2O -> C2H2Cl2 + HCl"
+      },
+      {
+        "name": "Hydrogen Sulfide Oxidation",
+        "description": "Oxidation of hydrogen sulfide with oxygen to produce sulfur dioxide and water.",
+        "reactants": ["H2S", "O2"],
+        "products": ["SO2", "H2O"],
+        "balancedEquation": "2H2S + 3O2 -> 2SO2 + 2H2O"
+      },
+      {
+        "name": "Calcium Hydroxide and Carbon Dioxide Reaction",
+        "description": "Reaction of calcium hydroxide with carbon dioxide to produce calcium carbonate and water.",
+        "reactants": ["Ca(OH)2", "CO2"],
+        "products": ["CaCO3", "H2O"],
+        "balancedEquation": "Ca(OH)2 + CO2 -> CaCO3 + H2O"
+      },
+      {
+        "name": "Hydrogen Peroxide and Potassium Iodide Reaction",
+        "description": "Reaction of hydrogen peroxide with potassium iodide to produce iodine, potassium hydroxide, and water.",
+        "reactants": ["H2O2", "KI"],
+        "products": ["I2", "KOH", "H2O"],
+        "balancedEquation": "H2O2 + 2KI -> I2 + 2KOH + H2O"
+      },
+      {
+        "name": "Lactic Acid Combustion",
+        "description": "Combustion of lactic acid in oxygen to produce carbon dioxide and water.",
+        "reactants": ["C3H6O3", "O2"],
+        "products": ["CO2", "H2O"],
+        "balancedEquation": "C3H6O3 + 3O2 -> 3CO2 + 3H2O"
+      },
+      {
+        "name": "Silicon Dioxide and Hydrofluoric Acid Reaction",
+        "description": "Reaction of silicon dioxide with hydrofluoric acid to produce hexafluorosilicic acid and water.",
+        "reactants": ["SiO2", "HF", "H2O"],
+        "products": ["H2SiF6", "H2O"],
+        "balancedEquation": "SiO2 + 6HF -> H2SiF6 + 2H2O"
+      },
+      {
+        "name": "Sodium Chloride and Sulfuric Acid Reaction with Manganese Dioxide",
+        "description": "Reaction of sodium chloride with sulfuric acid and manganese dioxide to produce chlorine gas, sodium sulfate, manganese sulfate, and water.",
+        "reactants": ["NaCl", "H2SO4", "MnO2"],
+        "products": ["Cl2", "Na2SO4", "MnSO4", "H2O"],
+        "balancedEquation": "4NaCl + 2H2SO4 + MnO2 -> Cl2 + Na2SO4 + MnSO4 + 2H2O"
+      },
+      {
+        "name": "Ethanol Combustion",
+        "description": "Combustion of ethanol in oxygen to produce carbon dioxide and water.",
+        "reactants": ["C2H5OH", "O2"],
+        "products": ["CO2", "H2O"],
+        "balancedEquation": "C2H5OH + 3O2 -> 2CO2 + 3H2O"
+      },
+      {
+        "name": "Potassium Dichromate and Sulfuric Acid Reaction",
+        "description": "Reaction of potassium dichromate with sulfuric acid and water to produce chromium(III) oxide, potassium sulfate, and oxygen.",
+        "reactants": ["K2Cr2O7", "H2SO4", "H2O"],
+        "products": ["Cr2O3", "K2SO4", "O2"],
+        "balancedEquation": "K2Cr2O7 + 4H2SO4 + 3H2O -> Cr2O3 + 2K2SO4 + 3O2"
+      },
+      {
+        "name": "Calcium Carbide and Nitrogen Reaction",
+        "description": "Reaction of calcium carbide with nitrogen to produce calcium cyanamide and carbon.",
+        "reactants": ["CaC2", "N2"],
+        "products": ["CaCN2", "C"],
+        "balancedEquation": "CaC2 + N2 -> CaCN2 + C"
+      },
+      {
+        "name": "Iron(II) Sulfide and Oxygen Reaction",
+        "description": "Reaction of iron(II) sulfide with oxygen to produce iron(III) oxide and sulfur dioxide.",
+        "reactants": ["FeS2", "O2"],
+        "products": ["Fe2O3", "SO2"],
+        "balancedEquation": "4FeS2 + 11O2 -> 2Fe2O3 + 8SO2"
+      },
+      {
+        "name": "Methanol Combustion",
+        "description": "Combustion of methanol in oxygen to produce carbon dioxide and water.",
+        "reactants": ["CH3OH", "O2"],
+        "products": ["CO2", "H2O"],
+        "balancedEquation": "2CH3OH + 3O2 -> 2CO2 + 4H2O"
+      },
+      {
+        "name": "Lead(II) Nitrate and Potassium Iodide Reaction",
+        "description": "Reaction of lead(II) nitrate with potassium iodide to produce lead(II) iodide and potassium nitrate.",
+        "reactants": ["Pb(NO3)2", "KI"],
+        "products": ["PbI2", "KNO3"],
+        "balancedEquation": "Pb(NO3)2 + 2KI -> PbI2 + 2KNO3"
+      },
+      {
+        "name": "Aluminum and Iron(III) Oxide Reaction",
+        "description": "Reaction of aluminum with iron(III) oxide to produce aluminum oxide and iron.",
+        "reactants": ["Al", "Fe2O3"],
+        "products": ["Al2O3", "Fe"],
+        "balancedEquation": "2Al + Fe2O3 -> Al2O3 + 2Fe"
+      },
+      {
+        "name": "Ethane Combustion",
+        "description": "Combustion of ethane in oxygen to produce carbon dioxide and water.",
+        "reactants": ["C2H6", "O2"],
+        "products": ["CO2", "H2O"],
+        "balancedEquation": "2C2H6 + 7O2 -> 4CO2 + 6H2O"
+      },
+      {
+        "name": "Calcium Carbonate Reaction with Water and Carbon Dioxide",
+        "description": "Reaction of calcium carbonate with water and carbon dioxide to produce calcium bicarbonate.",
+        "reactants": ["CaCO3", "H2O", "CO2"],
+        "products": ["Ca(HCO3)2"],
+        "balancedEquation": "CaCO3 + H2O + CO2 -> Ca(HCO3)2"
+      },
+      {
+        "name": "Ammonium Nitrate and Sulfuric Acid Reaction",
+        "description": "Reaction of ammonium nitrate with sulfuric acid to produce ammonium bisulfate and nitric acid.",
+        "reactants": ["NH4NO3", "H2SO4"],
+        "products": ["NH4HSO4", "HNO3"],
+        "balancedEquation": "NH4NO3 + H2SO4 -> NH4HSO4 + HNO3"
+      },
+      {
+        "name": "Iron(II) Sulfide and Hydrochloric Acid Reaction",
+        "description": "Reaction of iron(II) sulfide with hydrochloric acid to produce iron(II) chloride and hydrogen sulfide.",
+        "reactants": ["FeS", "HCl"],
+        "products": ["FeCl2", "H2S"],
+        "balancedEquation": "FeS + 2HCl -> FeCl2 + H2S"
+      },
+      {
+        "name": "White Phosphorus and Oxygen Reaction",
+        "description": "Reaction of white phosphorus with oxygen to produce diphosphorus pentoxide.",
+        "reactants": ["P4", "O2"],
+        "products": ["P2O5"],
+        "balancedEquation": "P4 + 5O2 -> 2P2O5"
+      },
+      {
+        "name": "Ammonia and Hydrochloric Acid Reaction",
+        "description": "Reaction of ammonia with hydrochloric acid to produce ammonium chloride.",
+        "reactants": ["NH3", "HCl"],
+        "products": ["NH4Cl"],
+        "balancedEquation": "NH3 + HCl -> NH4Cl"
+      },
+      {
+        "name": "Barium Chloride and Sodium Sulfate Reaction",
+        "description": "Reaction of barium chloride with sodium sulfate to produce barium sulfate and sodium chloride.",
+        "reactants": ["BaCl2", "Na2SO4"],
+        "products": ["BaSO4", "NaCl"],
+        "balancedEquation": "BaCl2 + Na2SO4 -> BaSO4 + 2NaCl"
+      },
+      {
+        "name": "Magnesium and Nitrogen Reaction",
+        "description": "Reaction of magnesium with nitrogen to produce magnesium nitride.",
+        "reactants": ["Mg", "N2"],
+        "products": ["Mg3N2"],
+        "balancedEquation": "3Mg + N2 -> Mg3N2"
+      },
+      {
+        "name": "Calcium Hydroxide and Chlorine Reaction",
+        "description": "Reaction of calcium hydroxide with chlorine to produce calcium oxychloride, calcium chloride, and water.",
+        "reactants": ["Ca(OH)2", "Cl2"],
+        "products": ["Ca(OCl)2", "CaCl2", "H2O"],
+        "balancedEquation": "2Ca(OH)2 + 2Cl2 -> Ca(OCl)2 + CaCl2 + 2H2O"
+      },
+      {
+        "name": "Ethyl Chloride and Sodium Hydroxide Reaction",
+        "description": "Reaction of ethyl chloride with sodium hydroxide to produce ethanol and sodium chloride.",
+        "reactants": ["C2H5Cl", "NaOH"],
+        "products": ["C2H5OH", "NaCl"],
+        "balancedEquation": "C2H5Cl + NaOH -> C2H5OH + NaCl"
+      },
+      {
+        "name": "Copper and Sulfuric Acid Reaction",
+        "description": "Reaction of copper with sulfuric acid to produce copper(II) sulfate, sulfur dioxide, and water.",
+        "reactants": ["Cu", "H2SO4"],
+        "products": ["CuSO4", "SO2", "H2O"],
+        "balancedEquation": "Cu + 2H2SO4 -> CuSO4 + SO2 + 2H2O"
+      }
+        ]
+      }
